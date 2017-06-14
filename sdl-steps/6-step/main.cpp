@@ -66,7 +66,7 @@ int main(int argc, char* args[]) {
                     // User requests quit
                     if (e.type == SDL_QUIT) {
                         quit = true;
-                    } else if(e.type == SDL_KEYDOWN) { //User presses a key
+                    } else if(e.type == SDL_KEYDOWN) { // User presses a key
                         // Select surfaces based on key press
                         switch (e.key.keysym.sym) {
                             case SDLK_UP:
